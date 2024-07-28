@@ -1,0 +1,15 @@
+@keyframes diagonalFloat {
+  0% {
+    transform: translate(0, 0) rotate(30deg);
+  }
+  100% {
+    transform: translate(100vw, 100vh) rotate(30deg);
+  }
+}
+
+.floating-username {
+  position: absolute;
+  top: -10vh;
+  left: -10vw;
+  animation: diagonalFloat 10s linear infinite;
+}
